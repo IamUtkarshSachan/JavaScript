@@ -14,9 +14,21 @@ console.log(typeof valueInNumber);
 
 let isLoggedIn = "Utkarsh"
 
-let booleanIsLoggedIn = boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
 
 // 1 => true;
 // "" => false
 // "Utkarsh" => true 
+
+let value =3
+let negValue = -value
+console.log(negValue); 
+
+
+let str1 ="hello"
+let str2 = " Utkarsh"
+
+let str3 = str1+str2
+
+console.log(str3);
